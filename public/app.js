@@ -51,31 +51,21 @@ var populateDropDown = function (beers) {
         var index = select.value;
         var beer = beers[index];
         displayBeerDetails(beer);
-     
     });
 
     var displayBeerDetails = function (beer) {
     var name = document.getElementById('beer-name');
+    // var image = document.getElementById('beer-image');
     var tagline = document.getElementById('tagline');
     var description = document.getElementById('description');
     name.innerText = beer.name;
+    // beerPicture = beer.image_url;
     tagline.innerText = beer.tagline;
     description.innerText = beer.description;
 }
+
+
 }
-
-
-
-
-
-// var showPicturesOfBeers = function(beers){
-//     var ul = document.getElementById('beer-pictures');
-//     beers.forEach(function (beer) {
-//         var li = document.createElement('li');
-//         li.innerText = beer.image_url;
-//         ul.appendChild(li);
-//     })}
-
 
 
 window.addEventListener('load', app);
