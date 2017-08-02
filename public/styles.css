@@ -1,25 +1,45 @@
 html {
-  font-family: sans-serif;
+  font-family: 'Kaushan Script', cursive;
+}
+
+body {
+  background: black url('http://www.pbs.org/wgbh/nova/assets/img/johnson-multiverse/image-02-large.jpg');
+  background-size: 200%;
+  padding: 20px;
+  margin: 20px;
 }
 
 h1 {
-    font-family: 'sans-serif', cursive;
-    font-size: 4rem;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 75px;
     text-align: center;
     text-decoration: underline;
 }
 
-ul {
-    font-family: 'sans-serif', cursive;
-    font-size: 2rem;
+#beer-name {
+    font-family: 'Courier', cursive;
+    font-size: 35px;
 }
 
-tagLine {
-    font-family: 'sans-serif', cursive;
-    font-size: 1rem;
+#tagline {
+    font-family: 'Courier', cursive;
+    font-size: 25px;
 }
 
-blurb {
-    font-family: 'sans-serif', cursive;
-    font-size: 0.5rem;
+#description {
+    font-family: 'Courier', cursive;
+    font-size: 20px;
+}
+
+select {
+    width: 300px;
+    padding: 5px 5px 5px 5px;
+    font-size: 15px;
+    -webkit-appearance: center;
+    font-family: 'Courier', cursive;
+    border: 2px solid;
+}
+
+ul.icon {
+list-style-image: url('brewdog_drop_down_icon.jpg');
 }
